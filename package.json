@@ -4,8 +4,8 @@
   "description": "Application web pour la collecte d'avis utilisateurs sur divers produits.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node src/server.js",  // Lancer l'application en mode production
+    "dev": "nodemon src/server.js"  // Lancer l'application en mode développement avec redémarrage automatique
   },
   "dependencies": {
     "express": "^4.18.2",
