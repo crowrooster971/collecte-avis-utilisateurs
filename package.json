@@ -8,7 +8,7 @@
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "express": "^4.18.2", /* Mise à jour de la version d'express à une version stable */
+    "express": "^4.18.2",
     "mongoose": "^5.11.15",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5"
@@ -18,3 +18,10 @@
   },
   "license": "MIT"
 }
+
+/* Dependencies:
+- Express: framework web
+- Mongoose: ODM pour MongoDB
+- Body-parser: middleware pour gérer les corps de requêtes
+- CORS: middleware pour gérer les partages de ressources entre origines
+- Nodemon: outil pour redémarrer le serveur automatiquement lors des modifications */
