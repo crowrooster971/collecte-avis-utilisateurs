@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecte d'Avis Utilisateurs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Soumettre un Avis</h1>
+        <form id="avisForm">
+            <input type="text" id="produit" placeholder="Produit" required>
+            <input type="number" id="note" min="1" max="5" placeholder="Note (1-5)" required>
+            <textarea id="avis" placeholder="Votre avis" required></textarea>
+            <button type="submit">Soumettre</button>
+        </form>
+        <h2>Avis soumis</h2>
+        <div id="avisList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
